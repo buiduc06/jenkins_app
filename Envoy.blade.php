@@ -1,9 +1,9 @@
-@servers(['staging' => ['ec2-user@35.75.36.167'], 'develop' => ['ec2-user@18.178.27.218']])
+@servers(['main' => ['ec2-user@18.141.159.239']])
 
 @setup
-    $repository = 'https://git.ntq.solutions/cnclab/line-order.git';
-    $base_dir = "/var/www/beerorder";
-    $releases_dir = '/var/www/beerorder/releases';
+    $repository = 'https://github.com/buiduc06/jenkins_app.git';
+    $base_dir = "/var/www/jenkins_app";
+    $releases_dir = '/var/www/jenkins_app/releases';
     $release = date('YmdHis');
     $new_release_dir = $releases_dir .'/'. $release;
 
