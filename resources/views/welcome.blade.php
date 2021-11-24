@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel Panda
+                    Laravel Panda 2
                 </div>
 
                 <div class="links">
