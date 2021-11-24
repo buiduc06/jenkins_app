@@ -9,7 +9,7 @@ php artisan down
 git add .
 git reset --hard
 git clean -df
-git pull origin develop
+git pull origin main
 
 # Install/update composer dependencies
 composer install --no-interaction --prefer-dist --optimize-autoloader
